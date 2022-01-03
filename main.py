@@ -8,7 +8,7 @@ from Classes.Recomendations import *
 from Classes.Test import *
 from transliterate.decorators import transliterate_function
 
-bot = telebot.TeleBot('2125717807:AAGkQKa99oKe2AHvrSQMgBQJU9dtD9nJgVQ')
+bot = telebot.TeleBot('Token')
 
 
 @bot.message_handler(commands="start")
